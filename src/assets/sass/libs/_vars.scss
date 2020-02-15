@@ -24,7 +24,7 @@
 
 // Font.
 	$font: (
-		family:				ff-tisa-web-pro, serif,
+		family:				('ff-tisa-web-pro', serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		700,
@@ -32,13 +32,13 @@
 	);
 
 	$gothic: (
-	font-family: alternate-gothic-no-1-d, sans-serif,
+	font-family: ('alternate-gothic-no-1-d', sans-serif),
 	font-weight: 400,	
 	font-style: normal
 	);
 
 	$proxima: (
-		font-family: proxima-nova, sans-serif,
+		font-family: ('proxima-nova', sans-serif),
 		font-weight: 300,	
 		font-style: normal,
 		weight-bold:	500
