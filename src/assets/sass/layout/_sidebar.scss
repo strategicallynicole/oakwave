@@ -112,7 +112,7 @@
       &:after {
         @include vendor(
           'background-image',
-          'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})'
+          'linear-gradient(to right, #{_palette(orange)}, #{_palette(red)}, #{_palette(pink)})'
         );
         @include vendor(
           'transition',

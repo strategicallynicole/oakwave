@@ -24,26 +24,44 @@
 
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family:				ff-tisa-web-pro, serif,
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
-		weight-bold:		bold,
+		weight-bold:		700,
 		kerning-alt:		0.25em
 	);
 
+	$gothic: (
+	font-family: alternate-gothic-no-1-d, sans-serif,
+	font-weight: 400,	
+	font-style: normal
+	);
+
+	$proxima: (
+		font-family: proxima-nova, sans-serif,
+		font-weight: 300,	
+		font-style: normal,
+		weight-bold:	500
+		);
+	
+	
+	
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
+		bg:					#6A3C98,
+		bg-alt:				#261c3e,
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent1:			#5f2d78,
+		accent1-alt:		#563a82,
+		accent2:			#7254c9,
+		accent2-alt:		#6A3C98,
+		accent3:			#8A51C3,
+		accent3-alt:		darken(#8A51C3, 10),
+		orange:				#EB8B23,
+		red:				#E34256,
+		pink:				#AF206E
 	);
