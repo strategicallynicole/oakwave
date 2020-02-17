@@ -1,8 +1,4 @@
-///
-/// Hyperspace by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-///
+
 
 /* Button */
 
@@ -23,7 +19,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: _font(buttonfamily);
-		font-size: 0.6em;
+		font-size: 0.9em;
 		font-weight: _font(buttonweight-bold);
 		height: calc(4.75em + 2px);
 		letter-spacing: _font(buttonkerning-alt);
@@ -65,11 +61,11 @@
 		}
 
 		&.small {
-			font-size: 0.4em;
+			font-size: 0.7em;
 		}
 
 		&.large {
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 
 		&.primary {
