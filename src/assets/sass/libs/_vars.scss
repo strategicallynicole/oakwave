@@ -24,26 +24,28 @@
 
 // Font.
 	$font: (
-		family:				('proxima-nova', sans-serif),
+		family:				('ff-tisa-web-pro', serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				normal,
 		weight-bold:		700,
 		kerning-alt:		0.25em
 	);
-
-	$gothic: (
-	family: ('alternate-gothic-no-1-d', sans-serif),
-	weight: 400,	
-	style: normal
+	
+	$font2: (
+		family:				('proxima-nova', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		500,
+		kerning-alt:		0.25em
 	);
 
-	$proxima: (
-		family: (’proxima-nova’, sans-serif),
-		weight: 300,	
-		style: normal,
-		weight-bold:	500
-		);
-	
+	$font3: (
+		family:				('alternate-gothic-no-1-d', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				normal,
+		weight-bold:		500,
+		kerning-alt:		0.25em
+	);
 	
 	
 // Palette.
