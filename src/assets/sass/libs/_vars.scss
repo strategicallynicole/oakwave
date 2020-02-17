@@ -24,21 +24,19 @@
 
 // Font.
 	$font: (
-		family:				('ff-tisa-web-pro', serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				normal,
-		weight-bold:		700,
-		kerning-alt:		0.25em,
-		headerfamily:				('proxima-nova', sans-serif),
-		headerfamily-fixed:		('Courier New', monospace),
-		headerweight:				300,
+		family:					('ff-tisa-web-pro', serif),
+		family-fixed:			('Courier New', monospace),
+		weight:					normal,
+		weight-bold:				700,
+		kerning-alt:				0.25em,
+		headerfamily:			('proxima-nova', sans-serif),
+		headerweight:			300,
 		headerweight-bold:		500,
 		headerkerning-alt:		0.25em,
-		buttonfamily:				('alternate-gothic-no-1-d', sans-serif),
-		buttonfamily-fixed:		('Courier New', monospace),
-		buttonweight:				normal,
-		buttonweight-bold:		500,
-		buttonkerning-alt:		0.25em
+		buttonfamily:			('alternate-gothic-no-1-d', sans-serif),
+		buttonweight:			normal,
+		buttonweight-bold:		700,
+		buttonkerning-alt:		1
 	);
 	
 	
